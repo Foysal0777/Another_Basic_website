@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Kablammo&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat&family=Poppins&family=Satisfy&family=Ubuntu:wght@300;400&family=Varela+Round&display=swap');
+
+* {
+    font-family: "Lato", serif;
+}
+
+/* heading part starting */
+p {
+    display: flex;
+    justify-content: center;
+    font-weight: 900;
+    font-size: 34px;
+
+}
+
+span {
+    padding-left: 10px;
+    color: orangered;
+}
+
+/* heading part ending */
+
+/*   starting of the contaienr */
+
+.container {
+    height: 300px;
+    display: flex;
+}
+
+.box1 {
+    height: 300px;
+    width: 400px;
+    padding-left: 272px;
+    background-color: #e1e3de;
+    padding: 0px;
+    position: relative;
+    left: 117px;
+    border-radius: 20px;
+}
+
+.box1 img {
+    position: relative;
+    left: 27px;
+}
+
+span1 {
+    position: relative;
+    left: 29px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+p1 {
+    position: relative;
+    left: 29px;
+    font-size: 14px;
+}
+
+.box2 {
+    height: 300px;
+    width: 400px;
+    background-color: #f9f0e9;
+    position: relative;
+    left: 200px;
+    border-radius: 20px;
+}
+
+.box2 img {
+    position: relative;
+    left: 27px;
+}
+
+.box3 {
+    height: 300px;
+    width: 400px;
+    background-color:#f0d0a1;
+    position: relative;
+    left: 284px;
+    border-radius: 20px;
+}
+
+.box3 img {
+    position: relative;
+    left: 27px;
+}
+
+.box1 img {
+    height: 150px;
+    width: 150px;
+}
+
+.box2 img {
+    height: 150px;
+    width: 150px;
+}
+
+.box3 img {
+    height: 150px;
+    width: 150px;
+}
+
+/* ending of the contianer */
+
+/* staring of the second container */
+.background {
+    background-image: url(/images/circle.png);
+    background-size: 151px;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    bottom: 107px;
+    left: 36px;
+}
+
+
+.friends img {
+    position: relative;
+    left: 119px;
+    top: 98px;
+    z-index: 1;
+}
+
+.container2 {
+    display: flex;
+}
+
+span4 {
+
+    position: relative;
+   
+    font-size: 20px;
+    font-weight: 900;
+    left: 428px;
+    top: 140px;
+}
+
+span5 {
+
+    position: relative;
+    
+    font-size: 20px;
+  font-weight: 900;
+  left: 427px;
+  top: 143px;
+
+}
+
+p5 {
+    position: relative;
+    left: 428px;
+  top: 170px;
+  font-size: 13px;
+  font-weight: 500;
+   
+}
+
+.btn  {
+    position: relative;
+    top: 276px;
+  right: 327px;
+   
+}
+.btn button{
+    color: white;
+  background: orangered;
+  border-radius: 8px;
+  padding: 14px;
+}
+
+/* ending of the second container */
